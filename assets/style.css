@@ -1,0 +1,247 @@
+body{
+background-image: url(blackbg.png);
+background-position: center;
+background-size: cover;
+align-items: center;
+
+}
+@font-face {
+    font-family: 'bloody';
+    src: url(BLOODY.TTF);
+}
+
+@font-face {
+    font-family: 'nightside';
+    src: url(NightsideDemoRegular.ttf);
+}
+
+@font-face {
+    font-family:'who';
+    src: url(who\ asks\ satan.ttf);
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    align-items: center;
+    border-radius: 8px;
+}
+.button{
+    width: 40px; height: 20px;
+    font-size:10px;
+    cursor: pointer; 
+    background-color: rgb(0, 255, 174);
+    border-color: rgb(255, 153, 0);
+    color:blue;
+    border-radius: 8px;
+}
+.fire{
+   
+    padding-top: 10px;
+    weight: 50px;
+    height:70 px;
+}
+
+.fire2{
+    padding-right:auto;
+}
+
+
+.fnaf{
+    display: none;
+}
+.button2{
+    font-family: 'who';
+    border-radius: 8px;
+    width: 40px; height: 20px;
+    font-size: 10px;
+    background-color: rgb(255, 183, 0);
+    color: rgb(123, 255, 0);
+        
+}
+
+
+.button3{
+    padding: 15px 25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #c00e0e;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-family: 'nightside';
+}
+.button3:hover{background-color: #e6e2e2}
+
+.button3:active {
+  background-color: #ffd65a56;
+  box-shadow: 0 5px #666;
+  transform: translateY(6px);
+}
+
+.button4{
+    font-family: 'who';
+    border-radius: 8px;
+    width: 80px; height:50px;
+    font-size: 10px;
+    background-color: rgb(235, 247, 67);
+    color: rgb(135, 43, 184);
+
+}
+
+.button5{
+    border-radius: 8px;
+    width: 80px; height:50px;
+    font-size: 10px;
+    background-color: rgb(243, 119, 37);
+    color: rgb(239, 44, 122);
+    font-family: 'who';
+}
+
+.button6{
+    font-family:'bloody';
+    border-radius: 8px;
+    width: 80px;height: 50px;
+    font-size: 10px;
+    background-color: rgb(0, 195, 255);
+    color: rgb(0, 195, 255);
+}
+
+.button7{
+    font-family: 'who';
+    border-radius: 8px;
+    width: 80px; height:50px;
+    font-size: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.button8{
+    font-family: 'who';
+    border-radius: 8px;
+    width: 80px; height: 50px;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.button9{
+    border-radius: 8px;
+    width: 80px;height: 50px;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 234, 240);
+    font-family: 'who';
+}
+
+.button10{
+    border-radius: 8px;
+    width: 80px; height: 50px;
+    font-size: 10px;
+    background-color: rgb(36, 7, 255);
+    color: rgb(255, 153, 0);
+    font-family: 'nightside';
+}
+
+.button11{
+    border-radius: 8px;
+    width: 80px; height: 50px;
+    font-size: 10px;
+    background-color: rgb(255, 255, 5);
+    color: rgb(135, 43, 184);
+    padding-bottom: 300px;
+    font-family: 'who';
+}
+
+.button12{
+    border-radius: 8px;
+    width:100px; height: 50px;
+    font-size: 10px;
+    background-color: rgb(255, 217, 0);
+    color: rgb(169, 11, 255);
+    font-family: 'who';
+
+}
+
+
+.button13{
+    border-radius: 8px;
+    width: 80px;height: 50px;
+    font-size: 10px;
+    background-color: rgb(145, 255, 0);
+    color: rgb(255, 0, 195);
+    font-family: 'nightside';
+}
+
+.button14{
+    border-radius: 8px;
+    width: 80px;height: 50px;
+    font-size: 10px;
+    background-color: rgba(195, 255, 0, 0.86);
+    color: rgb(166, 0, 255);
+    font-family: 'nightside';
+}
+
+.button15{
+    border-radius: 8px;
+    width: 80px; height:50px;
+    font-size: 10px;
+    background-color: rgb(255, 0, 144);
+    color: rgb(166, 0, 255);
+    font-family: 'nightside';
+}
+
+.button16{
+    border-radius: 8px;
+    width: 80px;height: 50px;
+    font-size: 10px;
+    background-color: rgb(0, 187, 255);
+    color: rgb(255, 0, 251);
+    font-family: 'who';
+}
+
+.button17{
+    border-radius: 8px;
+    width: 80px; height: 50px;
+    font-size: 10px;
+    background-color: rgb(0, 255, 170);
+    color: rgb(255, 234, 0);
+    font-family: 'nightside';
+}
+
+.button18{
+    border-radius: 8px;
+    width: 80px;height: 50px;
+    font-size: 10px;
+    background-color: rgb(254, 103, 204);
+    color: rgb(255, 0, 0);
+    font-family: 'nightside';
+}
+
+.button19{
+    border-radius: 40px;
+    width: 80px;height: 50px;
+    font-size: 10px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(217, 255, 0);
+    font-family: 'who';
+    
+}
+
+.button20{
+    border-radius: 40px;
+    width: 80px; height: 50px;
+    font-size: 10px;
+    background-color: rgb(255, 114, 6);
+    color: rgb(166, 0, 255);
+    padding-left: 100px;
+    font-family: 'nightside';
+}
+
+h2{
+    font-family: "bloody";
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= "stylesheet" href="assets/style.css">
+<title>emotions</title>
+<link rel="icon" type="image/x-icon" href="assets/1742601.png">
+
+</head>
+
+<body>
+
+<h2>S T R E S S E D</h2>
+
+<div class="fire">
+    <img class="1" src="assets/b72134112b54864e4948865375ecbb11.gif"> 
+    <img class="fire2" src="assets/b72134112b54864e4948865375ecbb11.gif"> 
+    
+</div>
+   
+
+
+        <button id="button1" onClick="playPause()">
+            <audio
+              src="assets/knocking.mp3"
+              autoplay
+             loop
+            ></audio>
+            play this first
+          </button>
+          
+          <script>
+            var aud = document.getElementById("button1").children[0];
+            var isPlaying = false;
+            aud.pause();
+          
+            function playPause() {
+              if (isPlaying) {
+                aud.pause();
+              } else {
+                aud.play();
+              }
+              isPlaying = !isPlaying;
+            }
+          </script>
+
+<form>
+    <img src="assets/giphy.gif">
+
+
+<div>
+    <img id="fnaf" src="" />
+</div>
+<button type="button" onclick="show()" id="btnID">
+    boo!
+</button>
+<script>
+    function show() {
+
+        let image = document.getElementById("fnaf");
+        image.src ="assets/fnaf.gif"
+        document.getElementById("btnID")
+            .style.display = "none";
+    }
+</script>
+    
+
+<button class="button button3" >ahhhhhh</button>
+<a href="https://en.wikipedia.org/wiki/Universehttps://en.wikipedia.org/wiki/Universe"><button class="button button4">on the rack</button></a>
+<button class="button button5">
+  troubled</button>
+<button class="button button6"> cared a hang</button>
+<button class="button button7">knackered</button>
+<button class="button button8">burnt-out</button>
+<button class="button button9"draggable>perturbed</button>
+<button class="button button10" draggable="true">nervous</button>
+
+<button class="button button11">stressed-out</button>
+<button class="button button12">do not press me</button>
+<button class="button button13">shell-shocked</button>
+<button class="button button14">edgy</button>
+<button class="button button15">unstrung</button>
+<button class="button button16">exasperated</button>
+<button class="button button17">aggravated</button>
+
+<button type="submit"><img src="assets/eyes.png" width="280px" height="280px"></button><button class="button button18">111</button></a>
+<button class="button button19" disabled>press me</button>
+<button class="button button20">end</button>
+
+</form>
+
+<img src="assets/dvd-old.gif" height="200px" width="400" >
+<img src="assets/sun_earth_moon_earthstage.gif" width="399px" height="220"  >
+
+
+</body>
+
+
+</html>
